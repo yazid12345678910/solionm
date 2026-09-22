@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>AulaClic. Contacto Excel</title>
+</head>
+
+<body>
+
+    <h3>AulaClic. Contacto Excel</h3>
+
+    <!-- Imagen de una tortuga -->
+    <img src="tortuga.jpg" alt="Tortuga" width="300">
+
+    <form action="#" method="post">
+
+        <label>
+            Nombre:
+            <input type="text" name="nombre"
+                   placeholder="Escribe tu nombre"
+                   autofocus size="30">
+        </label>
+        <br><br>
+
+        <label>
+            Consulta:
+            <textarea name="consulta"
+                      cols="40"
+                      rows="4"
+                      minlength="5"
+                      maxlength="25"
+                      placeholder="Escribe aquí tu consulta"
+                      required></textarea>
+        </label>
+        <br>
+
+        <label>Sexo:</label>
+        <label>
+            Hombre
+            <input type="radio" name="sexo" value="h">
+        </label>
+
+        <label>
+            Mujer
+            <input type="radio" name="sexo" value="m">
+        </label>
+        <br>
+
+        <label>
+            Acepto las condiciones de privacidad:
+            <input type="checkbox" name="cond" checked>
+        </label>
+
+        <p>
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+
+</body>
+</html>
